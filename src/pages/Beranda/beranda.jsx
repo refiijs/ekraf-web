@@ -126,7 +126,7 @@ function Beranda() {
 
       <section className="potensi-section text-center">
         <Container>
-          <h2>Potensi Ekraf Bogor</h2>
+          <h2>Kabar Ekraf Bogor</h2>
           <Carousel interval={3000}>
             <Carousel.Item>
               <img src={img2} alt="Hero Illustration" />
