@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ekraf-web/static/css/main.acf9314e.css",
+    "main.js": "/ekraf-web/static/js/main.b1a76bda.js",
+    "static/js/453.fb646f61.chunk.js": "/ekraf-web/static/js/453.fb646f61.chunk.js",
+    "static/media/sandiaga-uno.png": "/ekraf-web/static/media/sandiaga-uno.ebe08c1a4d0a5ceb5fc4.png",
+    "static/media/bima-arya.png": "/ekraf-web/static/media/bima-arya.b70eb7f1f15cb1e82abc.png",
+    "static/media/yoris-sebastian.png": "/ekraf-web/static/media/yoris-sebastian.4c852bf7600ecbe551f9.png",
+    "static/media/ridwan-kamil.png": "/ekraf-web/static/media/ridwan-kamil.a0c36bafd24c9247a9a6.png",
+    "static/media/about-ekraf.png": "/ekraf-web/static/media/about-ekraf.2d8d611a90a3f41d9ec1.png",
+    "static/media/artikel1.png": "/ekraf-web/static/media/artikel1.61ea916092f9f8098993.png",
+    "static/media/artikel2.png": "/ekraf-web/static/media/artikel2.23c38afb92ff953d92ad.png",
+    "static/media/artikel3.png": "/ekraf-web/static/media/artikel3.3664299aaeccf120fd0b.png",
+    "static/media/hero-background.png": "/ekraf-web/static/media/hero-background.af35bbbec8d985ad9fb8.png",
+    "static/media/banner-ekraf1.png": "/ekraf-web/static/media/banner-ekraf1.634431b5874738a191f7.png",
+    "static/media/img-lg.png": "/ekraf-web/static/media/img-lg.4ae2d5cf5d5024e8ddc4.png",
+    "static/media/logo-disparbud.png": "/ekraf-web/static/media/logo-disparbud.e61e2c013dd99197d24b.png",
+    "index.html": "/ekraf-web/index.html",
+    "main.acf9314e.css.map": "/ekraf-web/static/css/main.acf9314e.css.map",
+    "main.b1a76bda.js.map": "/ekraf-web/static/js/main.b1a76bda.js.map",
+    "453.fb646f61.chunk.js.map": "/ekraf-web/static/js/453.fb646f61.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acf9314e.css",
+    "static/js/main.b1a76bda.js"
+  ]
+}
