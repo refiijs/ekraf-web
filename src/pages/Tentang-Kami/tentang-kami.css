@@ -1,0 +1,227 @@
+/* beranda.css */
+
+.tentang-kami {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.mengenal-ekraf {
+  display: flex;
+  align-items: flex-start;
+  gap: 11rem;
+}
+.mengenal-ekraf h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.mengenal-ekraf p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.image-tentang-kami {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  height: 350px;
+  width: 450px;
+  margin-right: 2rem;
+  overflow: hidden;
+  margin-bottom: 0;
+  position: relative; /* For positioning overlay if needed */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.image-tentang-kami img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out; /* Add smooth zoom transition */
+}
+
+.image-tentang-kami:hover img {
+  transform: scale(1.1);
+}
+
+.image-tentang-kami:hover {
+  transform: translateY(-2px); /* Lift the image slightly */
+}
+
+.icon-placeholder {
+  font-size: 50px;
+  color: #999;
+}
+.kata-tokoh {
+  width: 100vw;
+  margin-top: 50px;
+  text-align: center;
+  background-color: #f3f5ff;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.kata-tokoh h3 {
+  padding: 80px 0 30px 0;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.tokoh-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* Memberi jarak antar kartu */
+  flex-wrap: wrap; /* Agar kartu bisa disusun secara responsif */
+  padding-bottom: 80px;
+}
+
+.tokoh-card {
+  flex: 1;
+  max-width: 400px;
+  border: none; /* Menghapus border bawaan */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan untuk kartu */
+  border-radius: 8px; /* Sudut membulat */
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease,
+    background-color 0.3s ease;
+  text-align: center; /* Mengatur konten di tengah */
+  position: relative;
+  overflow: hidden; /* Agar konten yang membesar tidak keluar dari kartu */
+}
+
+.tokoh-card:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Bayangan lebih besar saat hover */
+  background-color: #0970ac !important; /* Background berubah warna */
+}
+
+.tokoh-card:hover .tokoh-position,
+.tokoh-card:hover .card-title,
+.tokoh-card:hover .card-text {
+  color: #ffffff;
+}
+
+.tokoh-card:hover .tokoh-image {
+  transform: scale(1.1); /* Memperbesar gambar lebih besar saat hover */
+}
+
+.tokoh-card .card-body {
+  padding: 30px 30px;
+  transition: opacity 0.3s ease;
+}
+
+.tokoh-image {
+  width: 100px; /* Perbesar ukuran default gambar */
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.tokoh-position {
+  font-size: 12px;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 15px;
+  transition: color 0.3s ease;
+}
+
+.tokoh-card .card-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  transition: color 0.3s ease;
+}
+
+.tokoh-card .card-text {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  transition: opacity 0.3s ease;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #005689;
+  border-radius: 4px;
+  width: 20px;
+  height: 20px;
+  /* display: none; */
+}
+
+.carousel-control-prev-icon {
+  margin-left: -10px;
+}
+
+.carousel-control-next-icon {
+  margin-right: -10px;
+}
+
+.subsektor-container .carousel .carousel-control-prev,
+.subsektor-container .carousel .carousel-control-next {
+  display: none;
+}
+.subsektor-container {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.subsektor-title {
+  padding: 40px 0;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.subsektor-icon-item-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Mengatur jarak antar item */
+}
+
+.subsektor-icon-item {
+  text-align: center;
+  width: 120px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.subsektor-icon {
+  width: 100px;
+  height: 100px;
+  background-color: #005a84;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.subsektor-icon svg {
+  width: 48px;
+  height: 48px;
+  color: #f0f0f0;
+}
+.subsektor-text {
+  font-size: 14px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .subsektor-icon-item {
+    width: 120px;
+  }
+}

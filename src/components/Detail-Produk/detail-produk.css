@@ -1,0 +1,70 @@
+.container {
+  max-width: 1200px; /* Lebar maksimum kontainer */
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 32px; /* Ukuran font untuk nama produk */
+  font-weight: bold;
+  color: #333;
+}
+
+h5 {
+  font-size: 20px; /* Ukuran font untuk range harga */
+  color: #555;
+}
+
+p {
+  font-size: 16px; /* Ukuran font untuk deskripsi */
+  color: #444;
+  line-height: 1.6; /* Jarak antar baris */
+}
+
+.image-card {
+  margin-bottom: 20px;
+  padding-right: 50px;
+}
+
+.image-card img {
+  border-radius: 15px; /* Sudut melingkar pada gambar */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Lebar gambar */
+  height: auto; /* Tinggi otomatis */
+}
+
+/* Tambahan jarak antara gambar dan teks */
+.col-md-6:first-child {
+  margin-bottom: 20px; /* Jarak antara gambar dan teks */
+}
+
+/* Style untuk alamat usaha */
+.card {
+  border: none;
+  border-radius: 10px; /* Sudut melingkar pada kartu */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.map-frame {
+  border: none; /* Menghilangkan border pada iframe */
+  border-radius: 10px; /* Sudut melingkar pada peta */
+}
+
+/* Padding tambahan di bawah map */
+.padding-footer {
+  padding: 40px 0; /* Padding atas dan bawah sebelum footer */
+}
+
+/* Responsive layout untuk layar kecil */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 28px; /* Ukuran font lebih kecil untuk layar kecil */
+  }
+
+  h5 {
+    font-size: 18px; /* Ukuran font lebih kecil untuk layar kecil */
+  }
+
+  p {
+    font-size: 14px; /* Ukuran font lebih kecil untuk layar kecil */
+  }
+}

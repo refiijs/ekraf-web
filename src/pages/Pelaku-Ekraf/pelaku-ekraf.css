@@ -1,0 +1,41 @@
+/* beranda.css */
+
+.pelaku-ekraf {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-image {
+  width: 100%;
+  max-height: 400px; /* Atur tinggi maksimal untuk gambar hero */
+  overflow: hidden; /* Sembunyikan bagian gambar yang melampaui ukuran */
+  padding: 0px 40px;
+  margin-bottom: 30px;
+}
+
+.hero-image img {
+  border-radius: 25px;
+  width: 100%;
+  height: auto;
+  object-fit: fill; /* Menjaga proporsi gambar dan membuatnya penuh dalam container */
+}
+
+.ekraf-section {
+  padding: 3rem 1rem; /* Tambahkan padding untuk ruang di sekitar teks */
+  background-color: #f8f9fa; /* Tambahkan warna latar belakang untuk membedakan bagian ini */
+}
+
+.ekraf-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.ekraf-section p {
+  font-size: 1rem;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto; /* Center teks dengan batas maksimal lebar */
+  line-height: 1.6;
+}

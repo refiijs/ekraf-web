@@ -1,0 +1,46 @@
+.ekraf-card {
+  margin: 0 8px 50px 15px;
+  padding: 22px 22px 0px 22px;
+  background-color: white;
+  border: none !important;
+  box-shadow: 0 1px 8px rgba(240, 240, 240, 0.819);
+  border-radius: 8px;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+.ekraf-card a {
+  text-decoration: none !important; /* Menghilangkan underline dari link */
+}
+.ekraf-card:hover {
+  background-color: #005689 !important;
+}
+
+.ekraf-card svg {
+  width: 52px;
+  height: 52px;
+  margin-right: 10px;
+  vertical-align: middle;
+  color: #263642;
+}
+
+.ekraf-card .card-title {
+  text-decoration: none;
+  font-size: 22px;
+  margin-top: 12px;
+}
+
+.ekraf-card .card-text {
+  text-decoration: none;
+  font-size: 10px;
+  margin-top: 2px;
+}
+.ekraf-card:hover svg,
+.ekraf-card:hover .card-title,
+.ekraf-card:hover .card-text {
+  color: #fff !important;
+}

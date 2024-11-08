@@ -1,0 +1,49 @@
+/* Navbar CSS */
+.navbar {
+  padding-block: 0 !important;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background-color: #ffffff; /* Default background color */
+}
+
+.navbar.bg-custom {
+  background-color: var(
+    --navbar-bg-color,
+    #ffffff
+  ); /* Custom background using CSS variable */
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 600 !important; /* Menambah ketebalan font */
+  max-width: 142px;
+}
+
+.nav-link {
+  color: #005689;
+  font-weight: 600 !important; /* Menambah ketebalan font pada menu */
+  margin-right: 30px; /* Menambah jarak antar menu */
+}
+
+.nav-link:hover {
+  color: #005689 !important; /* Pastikan warna hover menjadi biru */
+  text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #005689 !important;
+}
+
+.navbar .container {
+  /* padding-block: 0px; */
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand img {
+  width: 240px;
+  height: 60px;
+}
